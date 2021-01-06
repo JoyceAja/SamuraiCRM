@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 begin
-  load File.expand_path('../../lib/samurai/core/engine', __FILE__)
+  load File.expand_path('../../engines/core/lib/samurai/core/engine', __FILE__)
 rescue LoadError => e
   raise unless e.message.include?('spring')
 end
